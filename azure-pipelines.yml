@@ -8,7 +8,7 @@ trigger:
 
 pool:
   pool:
-  name: Default
+  name: Great-Pool
   demands:
    - agent.name -equals Great-Pool  
    - msbuild
