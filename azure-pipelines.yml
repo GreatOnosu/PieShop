@@ -8,7 +8,7 @@ trigger:
 
 pool:
   pool:
-  name: Great-Pool
+  name: DESKTOP-VIDAVDR
   demands:
    - agent.name -equals Great-Pool  
    - msbuild
