@@ -8,12 +8,9 @@ trigger:
 
 pool:
   pool:
-  name: DESKTOP-VIDAVDR
-  demands:
-   - agent.name -equals Great-Pool  
-   - msbuild
-   - visualstudio
-   - vstest
+     name: Hosted Windows 2019 with VS2019 
+     vmImage: 'windows-2019'
+     demands: msbuild
 
 variables:
   solution: '**/*.sln'
